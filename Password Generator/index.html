@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="container"> 
+        <h1 class="head1">Generate a</h1> 
+        <h1 class="head2">random password </h1>
+        <p id="advice">Never use an insecure password again</p>
+        <div>
+            <input type="text" id="inp" placeholder="Enter the length of the password">
+        </div>
+        <button class="btn" onclick="getValue()">Generate passwords</button>
+        <hr class="line">
+        <div class="wrapper">
+            <div id="child1" class="pass"></div>
+            <div id="child2" class="pass"></div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
